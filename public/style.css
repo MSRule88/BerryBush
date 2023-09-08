@@ -1,0 +1,44 @@
+body {
+    background-image: radial-gradient(
+      rgba(22, 195, 24, 1),
+      rgba(130, 128, 122, 1),
+      rgba(150, 182, 206, 1),
+      rgba(168, 201, 196, 1),
+	  rgba(59, 79, 207, 1)
+    ),
+    url("../assests/images/BerryBushImg.jpg");
+    background-blend-mode: screen;
+    margin: 0;
+       
+}
+
+body > * {
+  font-family: 'Aladin', cursive;
+}
+
+.headcontainer {
+  display: flex;
+  gap: 10px;
+  background: radial-gradient(#176B87, #64CCC5, #279EFF, #C70A80);
+  width: 100%;
+  height: 75px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  }
+
+.headlink{
+  border: 1px solid #807e7f;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+}
+
+
+
+
+   
+
+
