@@ -1,16 +1,21 @@
 body {
-    background-image: radial-gradient(
-      rgba(22, 195, 24, 1),
-      rgba(130, 128, 122, 1),
-      rgba(150, 182, 206, 1),
-      rgba(168, 201, 196, 1),
-	  rgba(59, 79, 207, 1)
-    ),
-    url("../assests/images/BerryBushImg.jpg");
-    background-blend-mode: screen;
-    margin: 0;
-       
+  background: url("../assests/images/BerryBushImg3.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
+.d-flex1{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
 
 body > * {
   font-family: 'Aladin', cursive;
@@ -28,7 +33,8 @@ body > * {
   }
 
 .headlink{
-  border: 1px solid #807e7f;
+  border: 2px solid #2d2b2c;
+  
   margin-top: 25px;
   margin-bottom: 25px;
   padding-left: 8px;
