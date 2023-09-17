@@ -107,3 +107,128 @@ body > * {
   text-align: center;
 }
 
+.divcontainerA {
+  height: 100vh;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#Card1A {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-self: center;
+  text-align: center;
+  }
+
+#Card2A {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  justify-self: center;
+  text-align: center;
+}
+   
+#Card3A {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-self: center;
+  text-align: center;
+}
+
+#Card4A {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  justify-self: center;
+  text-align: center;
+  }
+
+#Card5A {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  justify-self: center;
+  text-align: center;
+}
+   
+#Card6A {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  justify-self: center;
+  text-align: center;
+}
+
+#img1A {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: center;
+  text-align: center;
+  }
+
+#img2A {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  justify-self: center;
+  text-align: center;
+}
+   
+#img3A {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-self: center;
+  text-align: center;
+}
+
+#img4A {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  justify-self: center;
+  text-align: center;
+  }
+
+.aboutme-social-links {
+  padding-right: 15px;
+  text-align: center;
+}
+
+.aboutme-social-links a {
+  color: #9400FF;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.aboutme-social-links a:hover {
+  color: #45FFCA;
+}
+
+
+
+.aboutme-socialicons {
+  padding: 10px;
+}
+
+.aboutme-socialicons:hover {
+  color: #45FFCA;
+}
