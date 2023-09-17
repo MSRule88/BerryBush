@@ -668,6 +668,10 @@ body > * {
                   display: none;
                 }
                 
+                .tempus {
+                  display: none;
+                }
+
                 #Card1A {
                   grid-column-start: 2;
                   grid-column-end: 4;
