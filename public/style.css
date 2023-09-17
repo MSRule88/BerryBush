@@ -107,12 +107,25 @@ body > * {
   text-align: center;
 }
 
+.maintextA {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 10px;
+}
 .divcontainerA {
   height: 100vh;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-header{
+  font-size: 1.5rem;
 }
 
 #Card1A {
@@ -124,7 +137,7 @@ body > * {
   text-align: center;
   }
 
-#Card2A {
+ #Card2A {
   grid-column-start: 4;
   grid-column-end: 6;
   grid-row-start: 3;
@@ -149,6 +162,10 @@ body > * {
   grid-row-end: 7;
   justify-self: center;
   text-align: center;
+  }
+
+  .tempus p{
+      font-size: 0.9rem;
   }
 
 #Card5A {
@@ -232,3 +249,343 @@ body > * {
 .aboutme-socialicons:hover {
   color: #45FFCA;
 }
+
+@media (max-height: 930px) or (max-width: 1100px){
+  .maintextA {
+      grid-column-start: 2;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      text-align: center;
+      padding-top: 15px;
+      margin-top: 10px;
+    }
+  
+  .divcontainerA {
+      height: 100vh;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr 1fr 1fr;
+    }
+
+    .card-header{
+      font-size: 1.5rem;
+    }
+    
+    #Card1A {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      justify-self: center;
+      text-align: center;
+      }
+  
+     #Card2A {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 7;
+      justify-self: center;
+      text-align: center;
+    }
+       
+    #Card3A {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 8;
+      grid-row-end: 10;
+      justify-self: center;
+      text-align: center;
+    }
+    
+    #Card4A {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      justify-self: center;
+      text-align: center;
+      }
+
+      .tempus p{
+          font-size: 0.8rem;
+      }
+    
+    #Card5A {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 5;
+      grid-row-end: 7;
+      justify-self: center;
+      text-align: center;
+    }
+       
+    #Card6A {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 8;
+      grid-row-end: 10;
+      justify-self: center;
+      text-align: center;
+    }}
+
+    @media (max-height: 900px) or (max-width: 670px){
+      .maintextA {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 1;
+          text-align: center;
+          padding-top: 15px;
+          margin-top: 10px;
+        }
+      
+      .divcontainerA {
+          height: 100vh;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: 0.5fr 1fr 1fr 0.25fr 1fr 1fr 0.25fr 1fr 1fr;
+        }
+        
+        #Card1A {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 2;
+          grid-row-end: 4;
+          justify-self: center;
+          text-align: center;
+          }
+      
+         #Card2A {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 5;
+          grid-row-end: 7;
+          justify-self: center;
+          text-align: center;
+        }
+           
+        #Card3A {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 8;
+          grid-row-end: 10;
+          justify-self: center;
+          text-align: center;
+        }
+        
+        #Card4A {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 2;
+          grid-row-end: 4;
+          justify-self: center;
+          text-align: center;
+          }
+
+          .tempus p{
+              font-size: 0.7rem;
+          }
+
+          .rest p{
+              font-size: 0.9rem;
+          }
+
+        #Card5A {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 5;
+          grid-row-end: 7;
+          justify-self: center;
+          text-align: center;
+        }
+           
+        #Card6A {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 8;
+          grid-row-end: 10;
+          justify-self: center;
+          text-align: center;
+        }}
+        @media (max-height: 725px) {
+          .maintextA {
+              grid-column-start: 1;
+              grid-column-end: 5;
+              grid-row-start: 1;
+              grid-row-end: 1;
+              text-align: center;
+              padding-top: 15px;
+              margin-top: 10px;
+            }
+          
+          .divcontainerA {
+              height: 100vh;
+              display: grid;
+              gap: 1rem;
+              grid-template-columns: repeat(4, 1fr);
+              grid-template-rows: 0.5fr 1fr 1fr 0.1fr 1fr 1fr 0.1fr 1fr 1fr;
+            }
+
+            .card-header{
+              font-size: 1.5rem;
+            }
+            
+            #Card1A {
+              grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 2;
+              grid-row-end: 4;
+              justify-self: center;
+              text-align: center;
+              }
+          
+             #Card2A {
+              grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 5;
+              grid-row-end: 7;
+              justify-self: center;
+              text-align: center;
+            }
+               
+            #Card3A {
+              grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 8;
+              grid-row-end: 10;
+              justify-self: center;
+              text-align: center;
+            }
+            
+            #Card4A {
+              grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 2;
+              grid-row-end: 4;
+              justify-self: center;
+              text-align: center;
+              }
+  
+              .tempus p{
+                  font-size: 0.7rem;
+              }
+  
+              .rest p{
+                  font-size: 0.9rem;
+              }
+  
+            #Card5A {
+              grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 5;
+              grid-row-end: 7;
+              justify-self: center;
+              text-align: center;
+            }
+               
+            #Card6A {
+              grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 8;
+              grid-row-end: 10;
+              justify-self: center;
+              text-align: center;
+            }}
+
+            @media (max-height: 700px) or (max-width: 630px){
+              .maintextA {
+                  grid-column-start: 1;
+                  grid-column-end: 5;
+                  grid-row-start: 1;
+                  grid-row-end: 1;
+                  text-align: center;
+                  padding-top: 15px;
+                  margin-top: 10px;
+                }
+              
+              .divcontainerA {
+                  height: 100vh;
+                  display: grid;
+                  gap: 0.5rem;
+                  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+                  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                }
+
+                .card {
+                  height: 65px;
+                  border: 0px;
+                }
+  
+                .card-header{
+                  font-size: 1rem;
+                }
+
+                .card-body {
+                  display: none;
+                }
+                
+                #Card1A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 2;
+                  grid-row-end: 3;
+                  justify-self: center;
+                  text-align: center;
+                  }
+              
+                 #Card2A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 3;
+                  grid-row-end: 4;
+                  justify-self: center;
+                  text-align: center;
+                }
+                   
+                #Card3A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 4;
+                  grid-row-end: 5;
+                  justify-self: center;
+                  text-align: center;
+                }
+                
+                #Card4A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 5;
+                  grid-row-end: 6;
+                  justify-self: center;
+                  text-align: center;
+                  }
+      
+                  .tempus p{
+                      font-size: 0.5rem;
+                  }
+      
+                  .rest p{
+                      font-size: 0.7rem;
+                  }
+      
+                #Card5A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 6;
+                  grid-row-end: 7;
+                  justify-self: center;
+                  text-align: center;
+                }
+                   
+                #Card6A {
+                  grid-column-start: 2;
+                  grid-column-end: 4;
+                  grid-row-start: 7;
+                  grid-row-end: 8;
+                  justify-self: center;
+                  text-align: center;
+                }}
